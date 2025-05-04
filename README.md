@@ -1,6 +1,1 @@
-# Pseudocode for PGD attack
-for step in range(num_steps):
-    adv_image = original_image + perturbation
-    loss = -model(image=adv_image).logits.mean()
-    perturbation += step_size * normalized_gradient(loss)
-    perturbation = project_to_valid_range(perturbation, norm, epsilon)
+<img width="489" alt="image" src="https://github.com/user-attachments/assets/9429df78-5dac-451d-bd2a-054cd5289005" />
